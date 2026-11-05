@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "policylens": {
+      "command": "/ABSOLUTE/PATH/TO/policylens/.venv/bin/python",
+      "args": ["-m", "mcp_server.server"],
+      "cwd": "/ABSOLUTE/PATH/TO/policylens",
+      "env": {
+        "EMBED_BACKEND": "st",
+        "RERANK_MODEL": "BAAI/bge-reranker-base"
+      }
+    }
+  }
+}
